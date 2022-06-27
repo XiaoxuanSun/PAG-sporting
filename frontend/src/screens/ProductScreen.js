@@ -135,11 +135,7 @@ function ProductScreen() {
     <div>
       <Row>
         <Col md={6}>
-          <img
-            className="img-large"
-            src={product.image}
-            alt={product.name}
-          ></img>
+          <img src={product.image} alt={product.name}></img>
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
@@ -178,7 +174,7 @@ function ProductScreen() {
                       {product.countInStock > 0 ? (
                         <Badge bg="success">In Stock</Badge>
                       ) : (
-                        <Badge bg="dange">Unavailable</Badge>
+                        <Badge bg="danger">Unavailable</Badge>
                       )}
                     </Col>
                   </Row>

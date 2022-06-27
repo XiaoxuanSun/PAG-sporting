@@ -8,7 +8,7 @@ function Rating(props) {
             rating >= 1
               ? 'fas fa-star'
               : rating >= 0.5
-              ? 'fas fa-star-half-alt'
+              ? 'fas fa-star-half'
               : 'far fa-star'
           }
         />
